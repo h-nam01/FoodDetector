@@ -3,7 +3,7 @@ import time
 import base64 
 from pathlib import Path
 from streamlit_navigation_bar import st_navbar
-from utils import _display_detected_frame, detect_camera, detect_image, detect_video, detect_webcam, load_onnx_model, load_model
+from utils import _display_detected_frame, detect_camera, detect_image, detect_video, detect_webcam, load_model
 
 st.set_page_config(
     page_title="FoodDetector",
@@ -236,7 +236,7 @@ def render_content():
         
         st.markdown(f'''<br><br>''', unsafe_allow_html=True)        
         model1 = load_model()
-        model = load_onnx_model()
+        # model = load_onnx_model()
 
         st.markdown("""
     <style>

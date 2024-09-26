@@ -117,12 +117,12 @@ def render_content():
     st.markdown('''
     <h4 id="dataset-section" class="dataset-page">VietFood67: A Dataset for Vietnamese Food Detection</h4>
     <ul class="define dataset-page">
-        <li class="define-li dataset-page">This dataset contains <code>30,360</code> images with <code>68</code> classes which included an extra 
+        <li class="define-li dataset-page">This dataset contains <code>33,003</code> images with <code>68</code> classes which included an extra 
         class for recognizing human faces as the purpose of this research is to detect and monitor people eating activity so 
         being able to know the human existence during the detection can give a more wholesome result. After all, the eating duration 
         can also be derived from human detection along with the dishes.</li>
-        <li class="define-li dataset-page">VietFood67 is divided in <code>70%</code>/<code>20%</code>/<code>10%</code> with <code>21,264</code> 
-        images for <code>train</code> set, <code>6,074</code> images for <code>test</code> set and <code>3,022</code> images for <code>valid</code> set.</li>
+        <li class="define-li dataset-page">VietFood67 is divided in <code>70%</code>/<code>20%</code>/<code>10%</code> with <code>23,117</code> 
+        images for <code>train</code> set, <code>3,284</code> images for <code>test</code> set and <code>6,602</code> images for <code>valid</code> set.</li>
     </ul>
 
     ''', unsafe_allow_html=True)
@@ -256,7 +256,7 @@ def render_content():
         <li class="define-li dataset-page"><code>Brightness adjustments</code>: Between <code>-15%</code> and <code>+15%</code>.</li>
         <li class="define-li dataset-page"><code>Mosaic augmentation</code></li>
     </ul>
-    <p class="define dataset-page">Overall, the total images obtained for training the model after the augmentation process are 123,644 images.</p>
+    <p class="define dataset-page">Overall, the total images obtained for training the model after the augmentation process are 171,699 images.</p>
     ''', unsafe_allow_html=True)
         
     st.markdown('''

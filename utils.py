@@ -768,7 +768,7 @@ def detect_camera(conf, model, address):
                         frame_count = 0
                     cv2.putText(im_bgr, f"FPS: {fps:.2f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2) 
                     im_rgb = Image.fromarray(im_bgr[..., ::-1])
-                    st_frame.image(im_rgb, caption='Camera IP', use_column_width=True)
+                    st_frame.image(im_rgb, caption='Camera IP', use_container_width=True)
 
                     for pred in r.boxes:
                         class_id = int(pred.cls[0].item())

@@ -569,7 +569,7 @@ def get_best_youtube_url(url, method="yt-dlp"):
         for f in reversed(info_dict.get("formats", [])):  # reversed because best is usually last
             # Find a format with video codec, no audio, *.mp4 extension at least 1920x1080 size
             good_size = (f.get("width") or 0) >= 1920 or (f.get("height") or 0) >= 1080
-            if good_size and f["vcodec"] != "none" and "av01" not in f["vcodec"] and f["acodec"] == "none" and f["ext"] == "mp4":
+            if good_size and f["vcodec"] != "none" and f["acodec"] == "none" and f["ext"] == "mp4":
                 return f.get("url")
 
 

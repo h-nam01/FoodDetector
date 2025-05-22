@@ -121,6 +121,7 @@ def render_content():
         <li class="define-li home-page">FoodDetector uses the <strong>YOLOv10b</strong> pretrained models for fine-tuning with <code>VietFood67</code>, 
         an enhanced custom-made Vietnamese food dataset created for detecting local dishes and achieved a <code>mAP50</code> of <code>0.92</code>.</li>
         <li class="define-li home-page">It can be used to detect <a href="/dataset" target="_self">67</a> Vietnamese dishes from a picture, video, webcam, and an IP camera through RTSP.</li>
+        <li class="define-li home-page">Led and co-developed by <a href="https://nguyenviethoangnam.vercel.app/" target="_blank" rel="noopener noreferrer">Nguyen Viet Hoang Nam</a> — visit my portfolio for more work and research.</li>
     </ul>
                     ''', unsafe_allow_html=True)
 

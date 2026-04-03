@@ -16,7 +16,7 @@ yt_dlp
 onnxruntime
 pytubefix
 torch==2.3.0
-matplotlib==3.9.1
+matplotlib
 torchvision==0.18.0
 ffmpeg
 streamlit_navigation_bar
